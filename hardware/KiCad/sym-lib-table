@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RF-BM-BG22C3")(type "KiCad")(uri "${KIPRJMOD}/project-symbols/RF-BM-BG22C3.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV2603")(type "KiCad")(uri "${KIPRJMOD}/project-symbols/DRV2603.kicad_sym")(options "")(descr ""))
+  (lib (name "CONMHF4-SMD-G")(type "KiCad")(uri "${KIPRJMOD}/project-symbols/CONMHF4-SMD-G.kicad_sym")(options "")(descr ""))
+)

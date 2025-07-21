@@ -1,0 +1,112 @@
+(footprint "2x1mm Castellated Pad"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "TP?"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "Rescue")
+		(uuid "87785eff-c549-4932-862e-e06d812d1e12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2x1mm Castellated Pad"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "User.6")
+		(uuid "3407bdcb-2bcf-483f-9b94-397fb11c0400")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0104505c-f83f-4c93-8fea-2bafa80c17cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45ac2285-c3ef-42bb-b0dc-1f459ce5ebd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efbc0b5a-3852-407e-870e-39ec23a163a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "TP?"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "User.6")
+		(uuid "27db8284-5a1d-4079-90c0-5d38aa31b9ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -0.55)
+		(size 1.27 1.27)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae7597aa-18f7-4351-9f59-3dcaf1d73897")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.27 2.54)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "3ba24b7e-0ac6-4fd0-bacb-20e88feb6719")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.27 2.54)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "89ccb44d-dbab-4fce-ae99-f11e3eda395f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0.55)
+		(size 1.27 1.27)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "76c1b8a2-ad42-4956-92d3-09aa34d150ba")
+	)
+)
